@@ -27,18 +27,47 @@ head, body, footer {
 .header {
   background-color: #f368e0;
   padding: 10px;
+  text-align: left;
 }
 
 .menu{
   background-color: #8395a7;
   padding: 1px;
+  text-align: left;
 }
 
 .menu li {
   list-style: none;
-  padding: 5px;
   font-size: 14px;
   font-weight: bold;
   font-family: verdana;
   display: inline-block;
+}
+
+.articulos {
+  margin: 20px;
+  width: 60%;
+  float: left;
+  background-color: #e74c3c;
+  text-align: left;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.lateral{
+  width: 30%;
+  float: right;
+  background-color: #3498db;
+
+}
+
+.pie {
+  clear: both;
+  padding: 20px;
+  background-color: #7f8c8d;
+}
+
+.articulos footer{
+  text-align: right;
+  font-style: italic;
 }
